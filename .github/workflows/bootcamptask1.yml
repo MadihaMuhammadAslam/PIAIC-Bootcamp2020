@@ -28,5 +28,5 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ delightful-band.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ madihabcc024617.surge.sh --token ${{secrets.SURGE_TOKEN}}
 
